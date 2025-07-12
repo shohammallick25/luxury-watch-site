@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Shoham Mallick || Luxury Watch Website</title>
+    <link rel="shortcut icon" href="assets/logo-dark.png" type="image/png">
+  </head>
+  <body>
+    <header class="header__container" id="home">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+                src="assets/logo-dark.png"
+                alt="logo-dark"
+                class="logo-dark"
+              />
+              <img
+                src="assets/logo-white.png"
+                alt="logo-white"
+                class="logo-white"
+              />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+
+          <li><a href="#product">Featured</a></li>
+          <li><a href="#store">New Arrivals</a></li>
+
+          <li><a href="#subscribe">Connect</a></li>
+        </ul>
+      </nav>
+      <div class="header__image">
+        <img src="assets/header.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h1>2025's PREMIER WATCH COLLECTION</h1>
+        <p>
+          Uncover a masterpiece of design and precision — where modern innovation meets timeless craftsmanship in every detail.
+        </p>
+        <h4>$1245</h4>
+        <div class="header__btns">
+          <button class="btn discover">DISCOVER</button>
+          <button class="btn">ADD TO CART</button>
+        </div>
+      </div>
+    </header>
+
+
+    <section class="story" id="about">
+      <div class="section__container story__container">
+        <div class="story__image">
+          <img src="assets/story.png" alt="story" />
+        </div>
+        <div class="story__content">
+          <h2 class="section__header">OUR STORY</h2>
+          <h4>The Timepiece That Inspired a Movement</h4>
+          <p>
+            Every watch in this collection reflects the pinnacle of horological craftsmanship — a perfect harmony of visionary design, technical mastery, and enduring elegance.
+            <br><br><i><b>“Crafted for Time. Designed for Legacy.”</b></i> </p>
+          <div class="story__btn">
+            <button class="btn">DISCOVER</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section__container feature__container" id="product">
+      <h2 class="section__header">FEATURED</h2>
+      <div class="feature__grid">
+        <div class="feature__card">
+          <span>SALE</span>
+          <img src="assets/feature-1.png" alt="feature" />
+          <h4>ADERTICA</h4>
+          <p>$780</p>
+          <button class="btn">ADD TO CART</button>
+        </div>
+        <div class="feature__card">
+          <span>SALE</span>
+          <img src="assets/feature-2.png" alt="feature" />
+          <h4>KERAKATCHI</h4>
+          <p>$950</p>
+          <button class="btn">ADD TO CART</button>
+        </div>
+        <div class="feature__card">
+          <span>SALE</span>
+          <img src="assets/feature-3.png" alt="feature" />
+          <h4>CITIZEN</h4>
+          <p>$678</p>
+          <button class="btn">ADD TO CART</button>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="section__container arrival__container" id="store">
+      <h2 class="section__header">NEW ARRIVALS</h2>
+      <div class="arrival__grid">
+        <div class="arrival__card">
+          <span>NEW</span>
+          <img src="assets/arrival-1.png" alt="arrival" />
+          <h4>TERJAN GOLD</h4>
+          <p>$890</p>
+          <button class="btn read__more">READ MORE</button>
+          <button class="btn add__cart">ADD TO CART</button>
+        </div>
+        <div class="arrival__card">
+          <img src="assets/arrival-2.png" alt="arrival" />
+          <h4>SHEPARD PINK</h4>
+          <p>$589</p>
+          <button class="btn read__more">READ MORE</button>
+          <button class="btn add__cart">ADD TO CART</button>
+        </div>
+        <div class="arrival__card">
+          <span>NEW</span>
+          <img src="assets/arrival-3.png" alt="arrival" />
+          <h4>TITAN BLACK</h4>
+          <p>$678</p>
+          <button class="btn read__more">READ MORE</button>
+          <button class="btn add__cart">ADD TO CART</button>
+        </div>
+        <div class="arrival__card">
+          <img src="assets/arrival-4.png" alt="arrival" />
+          <h4>ADERTICA WHITE</h4>
+          <p>$570</p>
+          <button class="btn read__more">READ MORE</button>
+          <button class="btn add__cart">ADD TO CART</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="client" id="c">
+      <div class="section__container client__container">
+        <div class="client__image">
+          <img src="assets/client.jpg" alt="client" />
+        </div>
+        <div class="client__content">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="client__card">
+                  <span><i class="ri-double-quotes-l"></i></span>
+                  <p>
+                    I never expected such an extensive range of watches catered
+                    to various tastes and preferences. It was challenging to
+                    choose just one! The service was impeccable, making my
+                    shopping experience truly enjoyable. I'll definitely be back
+                    for more.
+                  </p>
+                  <div class="client__card__details">
+                    <img src="assets/client-1.jpg" alt="client" />
+                    <div>
+                      <h4>Shoham Mallick</h4>
+                      <h5>Financial Analyst</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client__card">
+                  <span><i class="ri-double-quotes-l"></i></span>
+                  <p>
+                    As an avid watch collector, I've scoured countless websites,
+                    but none match the caliber of this one. The selection is
+                    unparalleled, and the attention to detail is evident in
+                    every piece. Customer service was prompt and knowledgeable,
+                    ensuring a seamless experience.
+                  </p>
+                  <div class="client__card__details">
+                    <img src="assets/client-2.jpg" alt="client" />
+                    <div>
+                      <h4>Shoham Mallick</h4>
+                      <h5>Marketing Executive</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client__card">
+                  <span><i class="ri-double-quotes-l"></i></span>
+                  <p>
+                    From casual elegance to sophisticated luxury, this website
+                    has it all. I've been a loyal customer for years, and their
+                    consistency in delivering exceptional service and products
+                    never ceases to amaze me. Whether it's a special occasion or
+                    a personal treat, I trust this site to deliver.
+                  </p>
+                  <div class="client__card__details">
+                    <img src="assets/client-3.jpg" alt="client" />
+                    <div>
+                      <h4>Shoham Mallick</h4>
+                      <h5>Business Owner</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe" id="subscribe">
+      <div class="section__container subscribe__container">
+        <div>
+          <h2>Subscribe to Our Newsletter</h2>
+          <p>
+            Stay ahead of time — be the first to explore new arrivals, exclusive offers, and insider updates delivered directly to your inbox.
+          </p>
+        </div>
+        <div>
+          <button class="btn">SUBSCRIBE</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="f">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h4>Our Information</h4>
+          <ul class="footer__links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#f">Return Policy</a></li>
+            <li><a href="#f">Privacy Policy</a></li>
+            <li><a href="#f">Site Map</a></li>
+            <li><a href="#f">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Store & Services</h4>
+          <ul class="footer__links">
+            <li><a href="#c">Store Locator</a></li>
+            <li><a href="#c">Support Center</a></li>
+            <li><a href="#c">Customer Support</a></li>
+            <li><a href="#f">Service & Warranty</a></li>
+            <li><a href="#c">Popular Campaign</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Popular Categories</h4>
+          <ul class="footer__links">
+            <li><a href="#product">Sports Watches</a></li>
+            <li><a href="#product">Chronograph Watches</a></li>
+            <li><a href="#product">Digital Watches</a></li>
+            <li><a href="#product">Mechanical Watches</a></li>
+            <li><a href="#product">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Product Support</h4>
+          <ul class="footer__links">
+            <li><a href="#f">Product Help</a></li>
+            <li><a href="#f">Service & Warranty</a></li>
+            <li><a href="#f">Righting Beats</a></li>
+            <li><a href="#f">Authorized Service</a></li>
+            <li><a href="#c">Customer Care</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright ©2025 || All rights reserved by <b>Shoham Mallick</b>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

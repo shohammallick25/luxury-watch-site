@@ -1,8 +1,9 @@
 # ⌚ Luxury Watch Collection – 2025
 
 A premium, responsive landing page for a luxury watch collection. This site showcases modern timepieces with elegant design, smooth UX, and attention to detail.
+<img width="1898" height="898" alt="image" src="https://github.com/user-attachments/assets/eb693a74-450c-4225-9de4-b5fe6a63a8bf" />
 
-![Luxury Watch Banner](./assets/banner.png) <!-- Replace with actual banner if available -->
+
 
 ---
 

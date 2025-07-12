@@ -70,3 +70,17 @@ ScrollReveal().reveal(".client__image img", {
 const swiper = new Swiper(".swiper", {
   loop: true,
 });
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("service-worker.js")
+      .then((registration) => {
+        console.log("ServiceWorker registered:", registration.scope);
+      })
+      .catch((error) => {
+        console.log("ServiceWorker registration failed:", error);
+      });
+  });
+}
+
